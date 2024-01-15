@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.TikToklogo {
+    width: auto;
+    height: 40%;
+}
+
+.headboxlogo {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.headboxhelp {
+    margin-right: 10px;
+    margin-top: 10px;
+}
