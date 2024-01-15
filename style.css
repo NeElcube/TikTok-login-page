@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-header {
+.header {
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -19,6 +19,15 @@ header {
 }
 
 .headboxhelp {
-    margin-right: 10px;
-    margin-top: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.headboxhelp a {
+    text-decoration: none;
+    color: black;
+}
+
+.headboxhelp a:hover {
+    text-decoration: underline;
 }
