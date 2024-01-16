@@ -1,5 +1,13 @@
+@font-face {
+    font-family: 'NotoSansTirhuta-Regular';
+    src: url('img/NotoSansTirhuta-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
+    font-family: 'NotoSansTirhuta-Regular';
 }
 
 .header {
@@ -21,11 +29,14 @@ body {
 .headboxhelp {
     margin-right: 20px;
     margin-top: 20px;
+    font-weight: 500;
 }
 
 .headboxhelp a {
     text-decoration: none;
     color: black;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .headboxhelp a:hover {
