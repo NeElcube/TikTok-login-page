@@ -1,13 +1,8 @@
-@font-face {
-    font-family: 'NotoSansTirhuta-Regular';
-    src: url('img/NotoSansTirhuta-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-body {
+ body {
     margin: 0;
-    font-family: 'NotoSansTirhuta-Regular';
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -27,18 +22,85 @@ body {
 }
 
 .headboxhelp {
-    margin-right: 20px;
-    margin-top: 20px;
-    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
 }
 
 .headboxhelp a {
     text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 14px;
+    color: #161823; 
+    font-weight: 500;
+    font-size: 15px;
 }
 
 .headboxhelp a:hover {
     text-decoration: underline;
+}
+
+.help_icon {
+    margin: 18px;
+    margin-right: 5px;
+    width: auto;
+    height: 30%;
+}
+
+.helptext {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.loginhad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logintext {
+    color: #161823;
+    font-weight: 1000;
+    font-size: 33px;
+}
+
+.logininfo {
+    color: #aaacab;
+    font-size: 15px;
+    line-height: 0;
+}
+
+.loginbuttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.btn{
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #161823;
+    background-color: #ffffff;
+    border: solid #aaacab 1px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 11px;
+    transition : 0ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    width: 350px;
+    height: 40px;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.btn:hover{
+    background-color: #aaacab3f;
+}
+
+.btn img {
+    margin-right: 10px;
 }
