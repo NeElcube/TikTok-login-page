@@ -6,14 +6,14 @@
 }
 
 .header {
-    height: 100px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
 }
 
 .TikToklogo {
     width: auto;
-    height: 40%;
+    height: 90%;
 }
 
 .headboxlogo {
@@ -49,7 +49,7 @@
     margin-top: 20px;
 }
 
-.logincenter{
+.logincenter {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,17 +66,37 @@
     font-weight: 1000;
     font-size: 33px;
 }
+.logininfboxhead{
+    margin-bottom: 20px;
+}
+.logininfbox{
+    display: flex;
+    justify-content: center;
+    color: #9f9fa0;
+    font-size: 15px;
+}
+
+.logininftext {
+    color: #161823;
+    font-size: 14px;
+}
 .scroll {
     margin-top: 5px;
     overflow:auto;
-    width: 355px;
+    width: 425px;
+}
+
+.scrollbox {
+    padding-top: 50px;
+    width: 420px;
+    height: 425px;
+    overflow: hidden;
+    overflow: scroll;
 }
 
 .loginbuttons {
-    width: 355px;
-    height: 245px;
-    overflow: hidden;
-    overflow: scroll;
+    display: flex;
+    justify-content: center;
 }
 
 .btn {
@@ -95,7 +115,7 @@
     align-items: center;
     padding: 0 15px; 
     width: 340px;
-    height: 42px;
+    height: 45px;
     margin-bottom: 10px;
 }
 
@@ -121,8 +141,77 @@
     margin-right: 10px;
 }
 
+.logintermsbox {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logintermstext{
+    display: flex;
+    justify-content: center;
+    color: #9f9fa0;
+    font-size: 13px;
+}
+
+.logintermstext a {
+    text-decoration: none;
+    color: #161823; 
+    font-size: 13px;
+}
+
+.logintermstext a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border-top: 1px solid #cacaca;
+}
+
+.signin {
+    display: flex;
+    justify-content: center;
+    color: #9f9fa0;
+    color: #161823;
+    font-weight: 500;
+}
+
+.signin a {
+   color: #fc2e58;
+   text-decoration: none;
+}
+
+.signin a:hover {
+    text-decoration: underline;
+}
+
+.bottom {
+    background-color: #121212;
+    height: 55px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+    color: #a09f9f;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.bottom button {
+    border-color: #a09f9f;
+    height: 35px;
+    width: 150;
+    color: #ffffff;
+    background-color: #121212;
+    border-width: 1.5px;
+    font-weight: 500;
+    text-align: left;
+    padding: 10px 10px;
+}
+
 *::-webkit-scrollbar {
-    width: 14px;
+    width: 0px;
   }
 
 *::-webkit-scrollbar-track {
